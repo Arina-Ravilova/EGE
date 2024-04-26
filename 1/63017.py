@@ -12,4 +12,3 @@ for p in permutations('АБВГДЕЖИ'):
     if set(new_graph.split()) == set(graph.split()):
         # 'символ_соединения'.join(список_значений_которые_соединяем)
         print(' '.join(p))
-
